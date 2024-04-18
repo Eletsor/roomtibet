@@ -94,3 +94,11 @@ body{
     color: #FDFDFD;
     text-align: left;
 }
+
+.header-form{
+    padding-top: 41px;
+}
+
+form {
+    display: flex;
+}
