@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@font-face{
+    font-family: "NEXTART";
+    src: url('fonts/NEXTART-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
 body{
     margin: 0;
     background-color: #E5E7EB;
     font-family: "Jost", sans-serif;
     color: black;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .container{
@@ -12,9 +22,75 @@ body{
     padding: 0 15px;
 }
 
+.button{
+    padding: 12px 24px 12px 24px;
+    background-color: #1A3E3E;
+    border-radius: 4px;
+    letter-spacing: 1.2%;
+}
+
+.button:hover{
+    background-color: #163535;
+    transition: 0.2s;
+}
+
 .header{
     background-image: url(img/background.png);
     height: 985px;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+.header-up{
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-el{
+    padding-right: 24px;
+}
+
+.header-el:nth-child(6){
+    padding-right: 0;
+}
+
+.header-el a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FDFDFD;
+}
+
+.header-el a:hover{
+    color: #dbd7d7;
+    transition: 0.2s;
+}
+
+.li-active a:hover{
+    color: #FDFDFD;
+}
+
+.li-active{
+    padding-right: 0;
+    padding-left: 50px;
+}
+
+.header-down{
+    padding-top: 463px;
+}
+
+.header-down h1{
+    font-family: "NEXTART";
+    font-size: 50px;
+    letter-spacing: 2%;
+    max-width: 1080px;
+    color: #FDFDFD;
+    text-align: left;
 }
