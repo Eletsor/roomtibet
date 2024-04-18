@@ -1,0 +1,14 @@
+
+
+body{
+    margin: 0;
+    background-color: #E5E7EB;
+    font-family: "Jost", sans-serif;
+    color: black;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
