@@ -47,7 +47,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 
 .header-nav ul{
@@ -102,15 +102,46 @@ body{
 }
 
 .header-form-wrapper{
-   
-    
-    
 }
 
 form {
     display: flex;
 }
 
+.input-wrapper:first-child{
+    padding: 40px 24px 40px 30px;
+}
+
+.input-wrapper:last-child{
+    padding: 40px 20px 40px 0;
+    
+}
+
 .input-wrapper{
-    padding: 40px 24px 40px 43px;
+    padding: 40px 24px 40px 0;
+}
+
+.input-wrapper p{
+    padding:8px 8px 0 8px;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FDFDFD;
+}
+
+
+#location, #date{
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 270px;
+    height: 52px;
+    padding: 0 16px 0 16px;
+    color: #FDFDFD;
+}
+
+#button-input{
+    width: 213px;
+    height: 52px;
+    border-radius: 4px;
 }

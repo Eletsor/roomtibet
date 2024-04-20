@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>РумТибет</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
@@ -42,15 +42,20 @@
                 <div class="header-form-wrapper">
                     <form action="#" method="post">
                         <div class="input-wrapper">
-                            <input  type="" id="location" name="locationname" placeholder="Локация для тура">
+                            <select size="1" type="" id="location" name="locationname" value="Локация для тура">
+                                <option value="Локация для тура">Локация для тура</option>
+                                <option value="Локация для тура">Локация 1</option>
+                                <option value="Локация для тура">Локация 2</option>
+                                <option value="Локация для тура">Локация 3</option>
+                            </select>
                             <p>Выберите из списка</p>
                         </div>
                         <div class="input-wrapper">
-                            <input  type="date" id="date" name="datetrain" value="Дата поездки"  >
+                            <input  type="date" id="date" name="datetrain" value="Дата похода"  >
                             <p>Укажите диапазон</p>
                         </div>
                         <div class="input-wrapper">
-                            <input  type="" id="location" name="locationname"  placeholder="Участники"  >
+                            <input  type="text"  id="location" name="locationname"  value="Участники">
                             <p>Минимум 4 человека</p>
                         </div>
                         <div class="input-wrapper">
