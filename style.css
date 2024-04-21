@@ -315,11 +315,12 @@ option{
 @media (max-width: 580px){
     .container{
         width: 345px;
+        padding: 0;
     }
 
     .header-down h1{
         font-size: 27px;
-        width: 330px;
-        fo
+        width: 320px;
+        
     }
 }
