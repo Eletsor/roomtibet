@@ -130,6 +130,10 @@ form {
 }
 
 
+option{
+    background-color: #1A3E3E;
+}
+
 #location, #date{
     background: none;
     border: 1px solid rgb(255, 255, 255);
@@ -138,10 +142,58 @@ form {
     height: 52px;
     padding: 0 16px 0 16px;
     color: #FDFDFD;
+    color-scheme: dark;
 }
 
 #button-input{
     width: 213px;
     height: 52px;
     border-radius: 4px;
+}
+
+/*media*/
+
+@media (max-width: 1188px){
+    .container{
+        max-width: 960px;
+    }
+
+    .header-form{
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    form{
+        max-height: 100px;
+    }
+
+    .last{
+        padding-top: 0;
+    }
+
+    .header{
+        height: 600px;
+    }
+
+    .header-down {
+        padding-top: 234px ;
+    }
+
+    .header-down h1 {
+        font-size: 45px;
+        width: 870px;
+    }
+
+    .lost{
+        display: none;
+        
+    }
+
+    
+}
+
+
+@media (max-width: 960px){
+    .container{
+        
+    }
 }

@@ -41,24 +41,30 @@
             <div class="header-form">
                 <div class="header-form-wrapper">
                     <form action="#" method="post">
-                        <div class="input-wrapper">
+                        <div class="input-wrapper lost">
                             <select size="1" type="" id="location" name="locationname" value="Локация для тура">
-                                <option value="Локация для тура">Локация для тура</option>
+                                <option value="Локация для тура" selected disabled>Локация для тура</option>
                                 <option value="Локация для тура">Локация 1</option>
                                 <option value="Локация для тура">Локация 2</option>
                                 <option value="Локация для тура">Локация 3</option>
                             </select>
                             <p>Выберите из списка</p>
                         </div>
-                        <div class="input-wrapper">
+                        <div class="input-wrapper lost">
                             <input  type="date" id="date" name="datetrain" value="Дата похода"  >
                             <p>Укажите диапазон</p>
                         </div>
-                        <div class="input-wrapper">
-                            <input  type="text"  id="location" name="locationname"  value="Участники">
+                        <div class="input-wrapper lost">
+                            <select   size="1"  type=""  id="location" name="locationname"  value="Участники">
+                                <option selected disabled>Количо участников</option>
+                                <option value="t1">4 человека</option>
+                                <option value="t2">10 человек</option>
+                                <option value="t3">Больше 10 человек</option>
+                                <option value="t4">Больше 20 человек</option>
+                            </select>
                             <p>Минимум 4 человека</p>
                         </div>
-                        <div class="input-wrapper">
+                        <div class="input-wrapper last">
                             <input  type="submit" id="button-input" value="Найти программу">
                         </div>
                     </form>
